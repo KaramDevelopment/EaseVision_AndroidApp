@@ -17,6 +17,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
+    TextView scannedPersons;
+    TextView elevatedPersons;
+    TextView nonElevatedPersons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +30,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         configureNextButton();
-        TextView scannedPersons = findViewById(R.id.textView_screenings);
-        scannedPersons.setText("People Scanned: " + (Integer.parseInt(Requests.readings[0])+Integer.parseInt(Requests.readings[1])));
-        TextView elevatedPersons = findViewById(R.id.textView_Elevated);
-        elevatedPersons.setText("Elevated Temperatures: " + Requests.readings[0]);
-        TextView nonElevatedPersons = findViewById(R.id.textView_nonElevated);
-        nonElevatedPersons.setText("Nonelevated Temperatures: " + Requests.readings[1]);
+        scannedPersons = findViewById(R.id.textView_screenings);
+        elevatedPersons = findViewById(R.id.textView_Elevated);
+        nonElevatedPersons = findViewById(R.id.textView_nonElevated);
+
 
     }
 
@@ -69,6 +70,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.addMarker(new MarkerOptions().position(location).title(infoActivity.city).icon(BitmapDescriptorFactory.fromResource(R.drawable.target)));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location, 16));
+            scannedPersons.setText("People Scanned: " + (Integer.parseInt(Requests.readings[0])+Integer.parseInt(Requests.readings[1])));
+            elevatedPersons.setText("Elevated Temperatures: " + Requests.readings[0]);
+            nonElevatedPersons.setText("Nonelevated Temperatures: " + Requests.readings[1]);
 
         } else {
             LatLng center = new LatLng( 36.961816, -98.067161);
