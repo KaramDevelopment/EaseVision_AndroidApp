@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ease Vision</string>
+    <string name="title_activity_maps">Ease Vision</string>
+    <color name="background">#FFFFFF</color>
+</resources>
