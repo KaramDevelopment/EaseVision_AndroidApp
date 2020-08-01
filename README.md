@@ -1,7 +1,7 @@
 "# EaseVision_AndroidApp" 
 
 
-Android APP repository: https://github.com/andrewkaram1/EaseVision_AndroidApp
+Android App repository: https://github.com/andrewkaram1/EaseVision_AndroidApp
 
 
 Rasberry PI repository: https://github.com/andrewkaram1/EaseVision-RasberryPI
