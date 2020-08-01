@@ -1,3 +1,3 @@
 "# EaseVision_AndroidApp" 
 
-![Alt text](Final Ak-1.jpg?raw=true "Optional Title")
+![Alt text](FINAL%20AK-1.jpg?raw=true "Optional Title")
