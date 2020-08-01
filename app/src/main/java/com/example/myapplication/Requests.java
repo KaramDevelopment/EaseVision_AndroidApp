@@ -24,7 +24,7 @@ public class Requests {
         Request request = new Request.Builder()
                 .url(url)
                 .addHeader("accept", "application/json")
-                .addHeader("authorization", "Basic YS1tbzl2Y3ItNWhxY2lsY3dzNjpiZkg/Zys4SEtaR3N4ailTdEY=")
+                .addHeader("authorization", "Basic *******************")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
