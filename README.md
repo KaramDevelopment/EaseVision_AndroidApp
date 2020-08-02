@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Ease Vision</h3>
@@ -62,12 +62,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Alt text](FINAL%20AK-1.jpg?raw=true "Optional Title")
-
 The application works collaboratively with the data being provided by an OPENMV H7 camera running an infrared imaging sensor, Lepton 3.5, with a Wi-Fi shield. The OPENMV cam is an IOT device programmed in micro python. When placed in a public setting, the camera utilizes the average screen temperature and evaluates it to determine if a being is present. Once the program identifies a person(s), it saves the IR frame and sends the image to a Raspberry Pi. The microcontroller then makes an HTTP post request call to the IBM Watson visual recognition service, which analyzes the image to locate a face(s). The Raspberry Pi is essential to the system since the OpenMV CAM lacks the ability to perform certain API calls. On return, the camera will receive the coordinates of where the face(s) were present in the frame. These coordinates are then utilized to give a mean temperature reading of the returned area. The OpenMV camera then evaluates if the assessed temperature is considered elevated or non-elevated based on WebMD’s fever temperature reading. This data then goes into a count-based variable, which on interval is pushed to IOT platform. This IOT service will receive not only the number of elevated and non-elevated temperature readings, but all information about the device’s specific location. On the other hand, the Android app has been programmed in Java to receive all the data from the IOT platform. On the start screen the application prompts the user for their country, state, and city. After all the information is filled, the selected city’s data as well as a surrounding map is displayed. The severity of the location is shown by a red marker, additionally, in the left corner the number of elevated vs non elevated individuals is further dissected.  The collaborative work between the OpenMV CAM running a Lepton sensor has much potential in accurately visualizing areas of high risk as well as predicting future outbreaks. Due to my financial status I am currently limited to one camera, but I strongly believe the capabilities of this application to help our society immensely. I strive to have these sensors throughout cities, malls, and populated areas of interest across the world. This would gather much data on a population allowing one to understand today’s situation and predict tomorrows. Currently, the majority of people rely on the number of confirmed cases to assess the situation of a specific place. However, the number of cases will not pinpoint a live exact location’s severity nor tell you who is currently ill and not quarantining. This information would not only assist common persons, but moreover, essential workers and government officials to best prepare for the next day. 
 
 ### Built With
-![Alt text](layout.jpg?raw=true "Optional Title")
+![layout](layout.png?raw=true "Optional Title")
 This project incorporates works collaboralively with a [OPENMV H7 Camera]("https://github.com/andrewkaram1/EaseVision_OpenMV-Cam") and a [rabserry PI](https://github.com/andrewkaram1/EaseVision-RasberryPI), which collaboratively leverages cloud computing.
 *[IBM Cloud Service](https://www.ibm.com/cloud/services)
   * [IBM Watson Visual Recognition](https://www.ibm.com/cloud/watson-visual-recognition)
