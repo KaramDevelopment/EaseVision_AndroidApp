@@ -35,6 +35,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
+  * [Dependencies](#dependencies)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
@@ -67,7 +68,7 @@ Import the project into Android Studio
 * [Google maps API Key]("https://developers.google.com/maps/documentation/android-sdk/overview")
 * [IBM IOT Service http link]("https://www.ibm.com/internet-of-things")
 
-## Dependencies
+### Dependencies
 All dependencies are taken note of within the build.gradle
 ```JS
 dependencies {
