@@ -126,7 +126,7 @@ Project Link: [https://github.com/andrewkaram1/EaseVision_AndroidApp](https://gi
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [OpenMV](https://openmv.io/products/wifi-shield-1)
+* [OpenMV](https://openmv.io)
 * [IBM](https://www.ibm.com/cloud)
 * [Google Maps](https://developers.google.com/maps/documentation/android-sdk/start)
 
