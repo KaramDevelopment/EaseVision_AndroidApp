@@ -1,18 +1,7 @@
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]](https://github.com/andrewkaram1)
+[![Issues][issues-shield]](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
+[![MIT License][license-shield]](https://github.com/andrewkaram1/EaseVision_AndroidApp/LICENSE.txt)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/andrew-karam-b48a77170)
 
 
 
@@ -65,10 +54,11 @@ The application works collaboratively with the data being provided by an OPENMV 
 ### Built With
 ![layout](layout.PNG?raw=true "Optional Title")
 This project incorporates works collaboralively with a [OPENMV H7 Camera]("https://github.com/andrewkaram1/EaseVision_OpenMV-Cam") and a [rabserry PI](https://github.com/andrewkaram1/EaseVision-RasberryPI), which collaboratively leverages cloud computing.
-*[IBM Cloud Service](https://www.ibm.com/cloud/services)
+
+- [IBM Cloud Service](https://www.ibm.com/cloud/services)
   * [IBM Watson Visual Recognition](https://www.ibm.com/cloud/watson-visual-recognition)
   * [IBM Watson IOT](https://www.ibm.com/internet-of-things)
-*[Google Maps](https://developers.google.com/maps/documentation/android-sdk/overview)
+- [Google Maps](https://developers.google.com/maps/documentation/android-sdk/overview)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -89,14 +79,14 @@ git clone https://https://github.com/andrewkaram1/EaseVision_AndroidApp
 <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">KEY HERE</string>
 </resources>';
 ```
-2. Enter your IBM watson IOT http link `infoActivity.java`
+2. Enter your IBM watson IOT HTTP request URLS in the `infoActivity.java`
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 ![layout](concept.PNG?raw=true "Optional Title")
 
-For more examples, please refer to the [Documentation](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/README.md)_
+For more examples, please refer to the [Documentation](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/README.md)
 
 
 
