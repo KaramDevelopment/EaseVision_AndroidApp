@@ -69,7 +69,7 @@ Import the project into Android Studio
 * [IBM IOT Service http link]("https://www.ibm.com/internet-of-things")
 
 ### Dependencies
-All dependencies are taken note of within the build.gradle
+All dependencies are taken care of within the build.gradle
 ```JS
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
