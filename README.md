@@ -15,7 +15,7 @@
   <p align="center">
    Ease Vision has been crafted as an innovative way to assess a population’s temperature in real time by collecting the data of individuals walking by. 
     <br />
-    <a href="https://github.com/andrewkaram1/EaseVision_AndroidApp/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.dropbox.com/s/ig9fvz40e18cnga/HIGHQuality_Final.mp4?dl=0">View Demo</a>
