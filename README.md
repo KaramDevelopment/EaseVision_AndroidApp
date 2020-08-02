@@ -28,14 +28,14 @@
   <p align="center">
    Ease Vision has been crafted as an innovative way to assess a population’s temperature in real time by collecting the data of individuals walking by. 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/andrewkaram1/EaseVision_AndroidApp/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://www.dropbox.com/s/ig9fvz40e18cnga/HIGHQuality_Final.mp4?dl=0">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/andrewkaram1/EaseVision_AndroidApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/andrewkaram1/EaseVision_AndroidApp/issues">Request Feature</a>
   </p>
 </p>
 
@@ -68,47 +68,35 @@ This project incorporates works collaboralively with a [OPENMV H7 Camera]("https
 *[IBM Cloud Service](https://www.ibm.com/cloud/services)
   * [IBM Watson Visual Recognition](https://www.ibm.com/cloud/watson-visual-recognition)
   * [IBM Watson IOT](https://www.ibm.com/internet-of-things)
-
-
+*[Google Maps](https://developers.google.com/maps/documentation/android-sdk/overview)
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Import the project into Android Studio
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* [Android Studio]("https://developer.android.com/studio")
+* [Google maps API Key]("https://developers.google.com/maps/documentation/android-sdk/overview")
+* [IBM IOT Service http link]("https://www.ibm.com/internet-of-things")
 
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://https://github.com/andrewkaram1/EaseVision_AndroidApp
 ```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
+2. Enter your Google maps API key in `google_maps_ap.xml`
 ```JS
-const API_KEY = 'ENTER YOUR API';
+<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">KEY HERE</string>
+</resources>';
 ```
-
-
+2. Enter your IBM watson IOT http link `infoActivity.java`
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![layout](concept.PNG?raw=true "Optional Title")
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+For more examples, please refer to the [Documentation](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/README.md)_
 
 
 
@@ -142,9 +130,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Andrew Karam - Andrewkaram44@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/andrewkaram1/EaseVision_AndroidApp](https://github.com/andrewkaram1/EaseVision_AndroidApp)
 
 
 
@@ -181,7 +169,3 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-
-
-
-![Alt text](FINAL%20AK-1.jpg?raw=true "Optional Title")
