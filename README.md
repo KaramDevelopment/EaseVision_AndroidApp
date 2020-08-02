@@ -1,6 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -132,3 +129,12 @@ Project Link: [https://github.com/andrewkaram1/EaseVision_AndroidApp](https://gi
 * [OpenMV](https://openmv.io/products/wifi-shield-1)
 * [IBM](https://www.ibm.com/cloud)
 * [Google Maps](https://developers.google.com/maps/documentation/android-sdk/start)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[issues-shield]: https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp
+[issues-url]:  https://github.com/andrewkaram1/EaseVision_AndroidApp/issues
+[license-shield]: 	https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/andrew-karam-b48a77170
