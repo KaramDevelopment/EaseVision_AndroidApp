@@ -51,12 +51,12 @@ The application works collaboratively with the data being provided by an OPENMV 
 
 ### Built With
 ![layout](layout.PNG?raw=true "Optional Title")
-This project incorporates works collaboralively with a [OPENMV H7 Camera]("https://github.com/andrewkaram1/EaseVision_OpenMV-Cam") and a [rabserry PI](https://github.com/andrewkaram1/EaseVision-RasberryPI), which collaboratively leverages cloud computing.
+This project incorporates works collaboralively with a [OPENMV H7 Camera]("https://github.com/andrewkaram1/EaseVision_OpenMV-Cam") and a [Rabserry PI](https://github.com/andrewkaram1/EaseVision-RasberryPI), which collaboratively leverages cloud computing.
 
-- [IBM Cloud Service](https://www.ibm.com/cloud/services)
+[IBM Cloud Service](https://www.ibm.com/cloud/services)
   * [IBM Watson Visual Recognition](https://www.ibm.com/cloud/watson-visual-recognition)
   * [IBM Watson IOT](https://www.ibm.com/internet-of-things)
-- [Google Maps](https://developers.google.com/maps/documentation/android-sdk/overview)
+[Google Maps](https://developers.google.com/maps/documentation/android-sdk/overview)
 
 <!-- GETTING STARTED -->
 ## Getting Started
