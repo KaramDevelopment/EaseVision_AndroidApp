@@ -1,5 +1,9 @@
-[![Issues][https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
-[![license][https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
