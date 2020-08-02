@@ -152,6 +152,6 @@ Project Link: [https://github.com/andrewkaram1/EaseVision_AndroidApp](https://gi
 [issues-shield]: https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp
 [issues-url]:  https://github.com/andrewkaram1/EaseVision_AndroidApp/issues
 [license-shield]: 	https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andrew-karam-b48a77170
