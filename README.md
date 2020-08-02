@@ -1,5 +1,5 @@
-[![Issues][https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp)](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
-[![license](https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp)](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt)
+[![Issues][https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp]](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
+[![license][https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp]](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt)
 
 
 <!-- PROJECT LOGO -->
