@@ -1,7 +1,5 @@
-[![Issues][issues-shield]](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
-[![MIT License][license-shield]](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/andrew-karam-b48a77170)
-
+[![Issues][https://img.shields.io/github/issues/andrewkaram1/EaseVision_AndroidApp)](https://github.com/andrewkaram1/EaseVision_AndroidApp/issues)
+[![license](https://img.shields.io/github/license/andrewkaram1/EaseVision_AndroidApp)](https://github.com/andrewkaram1/EaseVision_AndroidApp/blob/master/LICENSE.txt)
 
 
 <!-- PROJECT LOGO -->
